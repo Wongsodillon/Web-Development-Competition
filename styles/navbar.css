@@ -139,11 +139,11 @@
 
 @media (max-width: 48em) {
   .navbar {
-    background-color: black;
+    background-color: #262826;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   }
   .navbar .logo {
-    padding-top: 4px;
+    padding-top: 1px;
     padding-bottom: 4px;
   }
   .logo img {

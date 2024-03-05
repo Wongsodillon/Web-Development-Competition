@@ -8,12 +8,11 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   height: 2000px;
-  /* background: linear-gradient(
-    109.6deg,
-    rgba(0, 0, 0, 0.93) 11.2%,
-    rgb(63, 61, 61) 78.9%
-  ); */
-  background: var(--primary);
+  background-color:hsla(234,17%,25%,1);
+  background-image:
+  radial-gradient(at 34% 0%, hsla(201,24%,26%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 63%, hsla(192,21%,39%,1) 0px, transparent 50%),
+  radial-gradient(at 100% 21%, hsla(136,17%,54%,0.42) 0px, transparent 50%);
   background-attachment: fixed;
   font-family: Koulen, sans-serif;
 }
