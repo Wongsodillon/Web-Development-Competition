@@ -183,43 +183,6 @@ body {
   border-radius: 0.5rem;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #262826;
-  color: white;
-  font-size: 1.5rem;
-}
-
-.names {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  width: clamp(350px, 50%, 800px);
-}
-
-.name {
-  font-size: clamp(0.8rem, 3vw, 1.25rem);
-  text-wrap: nowrap;
-  color: white;
-  text-decoration: none;
-  transition: 0.5s;
-  background: linear-gradient(45deg, red 50%, white 50%);
-  background-size: 300% 200%;
-  background-position: right bottom;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  transition: all 900ms cubic-bezier(0.23, 1, 0.32, 1);
-  cursor: pointer;
-}
-
-.name:hover {
-  background-position: left bottom;
-}
-
 @media screen and (max-width: 768px) {
   .thumbnail {
     justify-content: start;
