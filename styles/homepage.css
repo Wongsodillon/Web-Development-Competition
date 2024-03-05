@@ -374,7 +374,7 @@ section {
 }
 
 .background {
-  background-image: url("../assets/homepage/proudToBePart/markus-spiske-WUehAgqO5hE-unsplash.jpg");
+  background-image: url("../assets/homepage/proudToBePart/background.jpg");
   background-size: cover;
   filter: brightness(60%);
   position: absolute;
@@ -389,7 +389,6 @@ section {
   margin-top: 24px;
   height: 480px;
   position: relative; /* Add this line */
-  filter: brightness(50%);
   overflow: hidden;
 }
 
