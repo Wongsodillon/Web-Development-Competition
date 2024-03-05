@@ -320,6 +320,7 @@ section > h1 {
 
 .accordion {
   padding-inline: 6%;
+  margin-bottom: 5%;
 }
 
 .accordion .line {
