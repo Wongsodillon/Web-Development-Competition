@@ -9,7 +9,7 @@ const observer = new IntersectionObserver((entries) => {
       })
     } else {
       $('.navbar').css({
-        'background-color': 'black',
+        'background-color': '#262826',
         'box-shadow': '1px 1px 4px 0 rgba(0, 0, 0, 0.1);'
       })
     }

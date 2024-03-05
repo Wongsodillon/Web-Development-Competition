@@ -46,6 +46,10 @@ const castObservers = () => {
                     $('.map-section').css({
                         'opacity': '0',
                     })
+                    $('body').css({
+                        'background-color': '#262826',
+                        'background-image': 'none'
+                    })
                 }
                 else if (entry.target.classList.contains('map-section')) {
                     $('.parallax-section').css({
@@ -58,11 +62,15 @@ const castObservers = () => {
                     $('.navbar').css({
                         'opacity': '1',
                         'margin-top': '0px',
-                        'background-color': 'black',
+                        'background-color': '#262826',
                         'box-shadow': '1px 1px 4px 0 rgba(0, 0, 0, 0.1);'
                     })
                     $('.map-section').css({
                         'opacity': '1',
+                    })
+                    $('body').css({
+                        'background-color': 'hsla(234,17%,25%,1)',
+                        'background-image': 'radial-gradient(at 34% 0%, hsla(201,24%,26%,1) 0px, transparent 50%), radial-gradient(at 0% 63%, hsla(192,21%,39%,1) 0px, transparent 50%),radial-gradient(at 100% 21%, hsla(136,17%,54%,0.42) 0px, transparent 50%)'
                     })
                 }
                 else if (entry.target.classList.contains('map-section')) {
